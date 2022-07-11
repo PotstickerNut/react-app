@@ -1,4 +1,10 @@
 import "./App.css";
+import { useState } from "react";
+
+const [firstCity, second] = ["Tokyo", "Tahoe City", "Bend"];
+
+console.log(firstCity);
+console.log(second);
 
 function App({ library }) {
   return (
